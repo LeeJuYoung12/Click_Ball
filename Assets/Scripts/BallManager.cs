@@ -18,17 +18,17 @@ public class BallManager
         GameManager.isLevel1 = true;
         NextBall();
     }
-
+    
     public void NextBall()
     {
         
-
-        //좌표 생성
-        float xPos = Random.Range(-880, 880);
-        float yPos = Random.Range(-460, 460);
+        
+        //좌표 생성 공반지름 80  
+        float xPos = Random.Range(-560, 560);
+        float yPos = Random.Range(-280, 280);
 
         //크기 생성
-        float size = Random.Range(0.5f, 1.5f);
+        float size = Random.Range(0.4f, 1.2f);
 
         if (GameManager.isLevel3 && GameObject.FindWithTag("Ball") == null)
         {

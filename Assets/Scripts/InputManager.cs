@@ -35,9 +35,9 @@ public class InputManager
                     }
                     else
                     {
-                        float xPos = Random.Range(-880, 880);
-                        float yPos = Random.Range(-460, 460);
-                        float size = Random.Range(0.5f, 1.5f);
+                        float xPos = Random.Range(-560, 560);
+                        float yPos = Random.Range(-280, 280);
+                        float size = Random.Range(0.4f, 1.2f);
                         hit.collider.transform.position = new Vector3(xPos, yPos, -5f);
                         hit.collider.transform.localScale = new Vector3(size, size, 0f);
 
@@ -63,9 +63,9 @@ public class InputManager
                     }
                     else
                     {
-                        float xPos = Random.Range(-880, 880);
-                        float yPos = Random.Range(-460, 460);
-                        float size = Random.Range(0.5f, 1.5f);
+                        float xPos = Random.Range(-560, 560);
+                        float yPos = Random.Range(-280, 280);
+                        float size = Random.Range(0.4f, 1.2f);
                         hit.collider.transform.position = new Vector3(xPos, yPos, -5f);
                         hit.collider.transform.localScale = new Vector3(size, size, 0f);
 
@@ -76,9 +76,9 @@ public class InputManager
                 }
                 else
                 {
-                    float xPos = Random.Range(-880, 880);
-                    float yPos = Random.Range(-460, 460);
-                    float size = Random.Range(0.5f, 1.5f);
+                    float xPos = Random.Range(-560, 560);
+                    float yPos = Random.Range(-280, 280);
+                    float size = Random.Range(0.4f, 1.2f);
                     hit.collider.transform.position = new Vector3(xPos, yPos, -5f);
                     hit.collider.transform.localScale = new Vector3(size, size, 0f);
                 }
